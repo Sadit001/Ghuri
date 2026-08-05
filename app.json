@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ঘুরি",
+    "slug": "ghuri",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./public/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1116"
+    },
+    "sdkVersion": "54.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/adaptive-icon.png",
+        "backgroundColor": "#0E1116"
+      }
+    },
+    "web": {
+      "favicon": "./public/favicon.ico"
+    },
+    "entryPoint": "index.js",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

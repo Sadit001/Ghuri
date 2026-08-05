@@ -1,0 +1,53 @@
+export const MESSAGES = {
+  AUTH: {
+    REGISTER_SUCCESS: 'User registered successfully.',
+    LOGIN_SUCCESS: 'Login successful.',
+    LOGOUT_SUCCESS: 'Logout successful.',
+    INVALID_CREDENTIALS: 'Invalid email or password.',
+    EMAIL_EXISTS: 'This email is already registered.',
+    UNAUTHORIZED: 'Access token is required.',
+    INVALID_TOKEN: 'Invalid or expired token.',
+  },
+  USER: {
+    PROFILE_FETCHED: 'User profile retrieved successfully.',
+    PROFILE_UPDATED: 'Profile updated successfully.',
+    AVATAR_UPLOADED: 'Profile image uploaded successfully.',
+    DOCUMENTS_UPLOADED: 'Identity documents uploaded successfully.',
+    STATS_FETCHED: 'User stats retrieved successfully.',
+    PREFERENCES_UPDATED: 'Preferences updated successfully.',
+    NOT_FOUND: 'User not found.',
+  },
+  TRIP: {
+    CREATED: 'Trip created successfully.',
+    FETCHED: 'Trip details retrieved successfully.',
+    UPDATED: 'Trip updated successfully.',
+    DELETED: 'Trip deleted successfully.',
+    CALCULATED: 'Trip cost calculation complete.',
+    NOT_FOUND: 'Trip not found.',
+  },
+  BOOKING: {
+    CREATED: 'Booking completed successfully.',
+    FETCHED: 'Bookings retrieved successfully.',
+    UPDATED: 'Booking status updated successfully.',
+    CANCELLED: 'Booking cancelled successfully.',
+    NOT_FOUND: 'Booking not found.',
+  },
+  GUIDE: {
+    FETCHED: 'Guide information retrieved successfully.',
+    AVAILABLE: 'Guide is available for the selected dates.',
+    UNAVAILABLE: 'Guide is already booked for the selected dates. Please choose different dates.',
+    BOOKED: 'Tour guide booked successfully.',
+    REVIEW_SUBMITTED: 'Review submitted successfully.',
+    NOT_FOUND: 'Guide not found.',
+  },
+  FEEDBACK: {
+    SUBMITTED: 'Feedback submitted successfully.',
+    COMPLAINT_FILED: 'Complaint recorded successfully.',
+    STATUS_UPDATED: 'Complaint status updated successfully.',
+  },
+  DESTINATION: {
+    FETCHED: 'Destinations retrieved successfully.',
+    NOT_FOUND: 'Destination not found.',
+  },
+  SERVER_ERROR: 'An internal server error occurred. Please try again later.',
+};

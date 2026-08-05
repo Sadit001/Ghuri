@@ -1,0 +1,15 @@
+export const COLLECTIONS = {
+  USERS: 'users',
+  TRIPS: 'trips',
+  BOOKINGS: 'bookings',
+  AGENCIES: 'agencies',
+  TOUR_GUIDES: 'tourGuides',
+  GUIDE_BOOKINGS: 'guideBookings',
+  REVIEWS: 'reviews',
+  FEEDBACK: 'feedback',
+  COMPLAINTS: 'complaints',
+  DESTINATIONS: 'destinations',
+  NEARBY_ATTRACTIONS: 'nearbyAttractions',
+  HOTELS: 'hotels',
+  RESTAURANTS: 'restaurants',
+} as const;

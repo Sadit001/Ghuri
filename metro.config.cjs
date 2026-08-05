@@ -1,0 +1,14 @@
+const { getDefaultConfig } = require('@expo/metro-config');
+
+const config = getDefaultConfig(__dirname);
+
+config.resolver.blockList = [
+  /[/\\]client[/\\]/,
+  /[/\\]server[/\\]/,
+  /[/\\]drizzle[/\\]/,
+  /[/\\]netlify[/\\]/,
+  /[/\\]\.expo[/\\]/,
+  /[/\\]\.git[/\\]/,
+].concat(config.resolver.blockList || []);
+
+module.exports = config;
